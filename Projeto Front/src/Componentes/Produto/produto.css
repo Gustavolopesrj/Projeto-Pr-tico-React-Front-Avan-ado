@@ -1,0 +1,44 @@
+
+.box-produtos {
+    display:inline-block;
+    padding: 15px;
+    margin: 50px;
+    border-radius: 15px;
+    border: 2px rgb(87, 83, 83) solid;
+    text-align: center;
+    vertical-align: middle;
+    width: 250px;
+    height: 450px; 
+  }
+  .pictureProduct {
+    padding: 0 0 10px 0;
+    width: 100%;
+    transition: all 0.5s;
+  }
+  .pictureProduct:hover{
+      cursor: pointer;
+      transform: translateY(-15px);
+      box-shadow: 10px 15px 2.5em black;
+  }
+  hr {
+    width: 70%;
+  }
+  .nomeJogo {
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 28px;
+  }
+  .priceFrom {
+    text-decoration: line-through;
+    font-style: italic;
+    font-family: Roboto;
+    font-weight: bolder;
+    font-size: 15px;
+  }
+  .priceTo {
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 500;
+
+  }

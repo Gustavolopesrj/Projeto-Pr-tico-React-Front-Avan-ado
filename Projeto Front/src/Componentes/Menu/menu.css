@@ -1,0 +1,7 @@
+.nav-item{
+    display: flex;
+    justify-content: center;
+}
+.active{
+    border-bottom: 2px solid white;
+}
